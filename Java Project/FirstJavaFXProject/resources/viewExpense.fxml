@@ -1,0 +1,12 @@
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+ fx:controller="ViewExpenseController">
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn fx:id="titleCol" text="Title"/>
+            <TableColumn fx:id="categoryCol" text="Category"/>
+            <TableColumn fx:id="amountCol" text="Amount"/>
+            <TableColumn fx:id="dateCol" text="Date"/>
+        </columns>
+    </TableView>
+    <Button text="Delete" onAction="#deleteExpense"/>
+</VBox>

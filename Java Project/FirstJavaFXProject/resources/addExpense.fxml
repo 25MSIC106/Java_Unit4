@@ -1,0 +1,8 @@
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+ fx:controller="AddExpenseController">
+    <TextField fx:id="titleField" promptText="Title"/>
+    <TextField fx:id="categoryField" promptText="Category"/>
+    <TextField fx:id="amountField" promptText="Amount"/>
+    <TextField fx:id="dateField" promptText="Date"/>
+    <Button text="Save" onAction="#saveExpense"/>
+</VBox>
